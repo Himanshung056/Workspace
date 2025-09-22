@@ -816,7 +816,6 @@ components:
                                 - private
                                 - public
                                 - partner
-                                - breakout
                             example: team
                         description:
                             type: string
