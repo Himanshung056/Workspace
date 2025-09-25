@@ -1,7 +1,8 @@
-offsetParam:
-	name: offset
-	in: query
-	schema:
-    	type: integer
-    	minimum: 0
-	description: The number of items to skip before returning the result
+parameters:
+	offsetParam:
+    	name: offset
+    	in: query
+    	schema:
+    		type: integer
+    		minimum: 0
+      	description: The number of items to skip before returning the results
