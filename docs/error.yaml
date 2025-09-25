@@ -1,0 +1,11 @@
+    ErrorModel:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int
+        message:
+          type: string
