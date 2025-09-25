@@ -1,11 +1,7 @@
-    ErrorModel:
-      type: object
-      required:
-        - code
-        - message
-      properties:
-        code:
-          type: integer
-          format: int
-        message:
-          type: string
+offsetParam:
+	name: offset
+	in: query
+	schema:
+    	type: integer
+    	minimum: 0
+	description: The number of items to skip before returning the results
